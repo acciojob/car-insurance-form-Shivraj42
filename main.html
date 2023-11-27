@@ -11,6 +11,44 @@
     <script type="text/javascript" src="./script.js">
 </script>
 
+<form method="post">
+
+    <Label for="name" class="req">Name</Label>
+    <input type="text"  id="name" required>
+
+    <Label for="email">Email</Label>
+    <input type="email"  id="email" required>
+    
+    <p class="req">Gender</p>
+    <label for="male" >Male</label>
+    <input type="radio" name="gender" id="male" required>
+    <label for="female" >Female</label>
+    <input type="radio" name="gender" id="female" required>
+    <label for="other" >Other</label>
+    <input type="radio" name="gender" id="other" required>
+
+
+
+    <label for="cars" class="req">Car Brands</label>
+    <select name="cars" id="cars">
+        <option value="bmw">BMW</option>
+        <option value="audy">Audy</option>
+        <option value="mer">Mercedez</option>
+    </select>
+
+    <Label for="carage" class="req">Car Age</Label>
+    <input type="number" id="carage" required>
+
+    <Label for="dop" class="req">Date of Purchase (dop)</Label>
+    <input type="date"  id="dop" required>
+
+    <Label for="password" class="req">Password</Label>
+    <input type="password" id="password" required>
+
+    <button type="submit"> Submit</button>
+
+
+</form>
 </body>
 
 </html>
